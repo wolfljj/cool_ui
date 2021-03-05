@@ -137,7 +137,7 @@ class WeuiToastConfig extends InheritedWidget{
 
   
   static WeuiToastConfigData of(BuildContext context) {
-    var widget = context.dependOnInheritedWidgetOfExactType(WeuiToastConfig);
+    var widget = context.dependOnInheritedWidgetOfExactType(aspect:WeuiToastConfig);
     if(widget is WeuiToastConfig){
       return widget.data;
     }
